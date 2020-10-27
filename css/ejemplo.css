@@ -1,0 +1,122 @@
+h1 {
+    
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+h2 {
+    
+    color: gray;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+
+body {
+    
+   font-family: Arial; 
+  
+}
+
+
+#lista1 li {
+    
+    display: inline;
+    
+    
+    
+}
+
+.dropcap
+{
+    float: left;
+    color: black;
+    padding: 3px;
+    display: block;
+    margin-left: 450px;
+    font-family: Arial;
+    margin-top: 5px;
+    font-size: 120px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+img {
+display:block;
+margin:auto;
+}
+
+
+p {
+    
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+
+
+#fotoallado {
+    
+    float: right;
+    margin-right: 700px;
+    
+    
+}
+
+
+#telefonica {
+    
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+a {
+    
+    color: black;
+    text-decoration: none;
+    text-decoration-line: underline;
+}
+
+
+a:active {
+    
+    background-color: black;
+    color: white;
+   
+    
+    }
+
+#lista1 a {
+    
+    color: darkgray;
+}
+
+
+#lista1 a:link {
+  
+    text-decoration: none;
+     
+}
+
+
+#lista1 a:active {
+    
+    background-color: black;
+   
+    
+    }
+
+#enlaces {
+    
+    color: black;
+    
+}
