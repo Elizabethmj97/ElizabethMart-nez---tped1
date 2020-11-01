@@ -1,0 +1,37 @@
+header {
+    font-family: bulgatti;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    
+}
+
+h2 {
+    
+    color: firebrick;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+    
+}
+
+
+section {
+    
+    max-width: 800px;
+    margin: auto;
+    
+}
+    
+
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
