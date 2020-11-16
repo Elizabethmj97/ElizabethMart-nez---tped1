@@ -1,0 +1,196 @@
+#button {
+    padding-left: 450px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: cadetblue;
+  
+ }
+
+#button li {
+    display: inline;
+   
+ }
+
+
+#button li a {
+ font-family: Arial;
+ text-decoration: none;
+ float: center;
+ padding: 15px;
+ color: #fff;
+font-size: 15px;
+ }
+
+
+#button li a:hover {
+ background-color: purple;
+ margin-top: -2;
+ }
+
+
+#contenedor {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.contenedor {
+    
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 370px;
+    margin-top: 50px;
+   
+}
+
+
+.texto-lado {
+    
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+}
+
+    
+
+.centrado {
+    
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#titulo{
+    
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right:  auto;
+}
+
+#texto{
+    width: 750px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+a {
+    
+  color: gray;
+    
+}
+
+
+
+a:link {
+  
+    text-decoration: none;
+     
+}
+
+
+a:hover {
+    
+    text-decoration: underline;
+    color: #F87979;
+    padding: 5px;
+    
+  
+}
+
+.enlace1:hover {
+    
+    text-decoration-line: line-through;
+    padding: 5px;
+    color: gray;
+}
+
+
+#foto{
+    
+   align-content: center;
+   
+    
+}
+
+#ulista {
+    
+    margin-top: 100px;
+    
+}
+
+header {
+    background-color: #22142b;
+   
+    
+}
+
+body {
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+   margin-bottom: 1px;
+}
+
+footer {
+    
+    height: 500px;
+    background-color: #22142b;
+    
+}
+
+ol {
+    
+    margin-top: 100px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+    list-style: none;
+    
+}
+
+
+body ol {
+    line-height: 20px;
+    color: gray;
+    font-size: 10px;
+   
+}
+
+footer ol {
+    line-height: 40px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h7 {
+    color: gray;
+    font-size: 10pt;
+    margin-bottom: 50px;
+}
+
+p{
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+div{
+    width: 750;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}

@@ -1,0 +1,225 @@
+body {
+    
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+#button {
+ padding: 0;
+ margin-left: 1000px;
+position: fixed;
+top: 0;
+width:100%;
+¡
+ }
+
+#button li {
+ display: inline;
+ }
+
+
+#button li a {
+ font-family: Arial;
+ font-size: 15px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ color: #fff;
+ }
+
+
+#button li a:hover {
+ background-color: #D12866;
+ margin-top: -2;
+ }
+
+
+h1 {
+    
+    padding-top: 50px;
+    font-family: calibri light;
+    font-size: 40px;
+    
+    
+}
+
+
+#adobe {
+    
+    margin-top: -10px;
+}
+
+   
+
+body {
+    
+   padding-left: 110px; 
+    padding-right: 900px;
+    
+}
+
+
+#parrafo {
+    
+    font-family: calibri;
+    font-size: 18px;
+    margin-top: -20px;
+    
+}
+
+
+#enlace {
+    
+    color: royalblue;
+    font-family: calibri;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+#enlacelink {
+    
+     text-decoration: none;
+}
+
+#enlace:hover {
+    
+    color: #D12866;
+    text-decoration-line: none;
+   
+    
+}
+
+#boton {
+    
+    background-color: royalblue;
+    font-family: calibri;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 320px;
+    color: white;
+    padding top: 1px;
+    padding-bottom: 1px;
+    padding-left: 48px;
+    padding-right: 40px;
+    overflow: hidden;    
+    
+}
+
+
+
+#menu {
+ 
+    padding: 0;
+    margin-top: 600px;
+    position: fixed;
+    top: -10;
+    width:100%;
+    background-color: #232323;
+    margin-left: -150;
+    padding top: 1px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 40px;
+    
+
+ }
+
+#menu li {
+    display: inline;
+ }
+
+
+#menu li a {
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color: #fff;
+ }
+
+
+#menu li a:hover {
+    color: yellow;
+ }   
+
+
+#button2 {
+    
+    padding: 0;
+    margin-top: 650px;
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: #353535;
+    margin-left: -150;
+    padding-bottom: 15px;
+    padding-left: 110px;
+    padding-right: 40px;
+    
+ }
+
+
+#button2 li {
+ display: inline;
+ }
+
+
+#button2 li a {
+ font-family: Arial;
+ font-size: 15px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ color: darkgrey;
+ }
+
+
+#button2 li a:hover {
+ color: white;
+ 
+ }   
+    
+
+#paleta {
+    
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+
+
+#cosmos {
+    
+    padding-left: 900px;
+    margin-top: -150px;
+    margin-right: -800px;
+   font-family: calibri;
+    font-size: 25px;
+    
+    }
+    
+#creado {
+    
+    padding-left: 900px;
+    margin-top: -10px;
+    margin-right: -800px;
+   font-family: calibri;
+    font-size: 15px;
+}
+
+
+hr {
+    
+    
+    margin-left: 900px;
+    margin-top: -20px;
+    margin-bottom: 35px;
+    
+}
+    
