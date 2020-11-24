@@ -1,0 +1,90 @@
+body {
+    
+    padding-left: 250px;
+    
+}
+
+
+
+.flex {
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 1000px;
+    position: absolute;
+    padding-right: 50px;
+    
+
+    
+}
+
+.flex a{
+    width: 32%;
+}
+
+.flex::before,
+.flex::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}
+
+
+.flex  {
+  padding: 0 6px;
+  float: left;
+  width: 23%;
+}
+
+
+#texto1 {
+    
+    font-family: sans-serif;
+}
+
+
+#texto2 {
+    
+    font-family: monospace;
+}
+
+#texto3 {
+    
+    font-family: fantasy;
+}
+
+
+#texto4 {
+    
+    font-family: verdana;
+}
+
+#texto5 {
+    
+    font-family: arial;
+}
+
+
+#texto6 {
+    
+    font-family: Aisyah Demo;
+}
+
+#texto7 {
+    
+    font-family: Algerian;
+}
+
+
+#texto8 {
+    
+    font-family: OCR A;
+}
+
+
+#texto9 {
+    
+    font-family: Limelight;
+}
