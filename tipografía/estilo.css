@@ -1,0 +1,89 @@
+body {
+    background-color: lightgray;
+}
+
+
+.flex {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.flex div {
+    width: 30%;
+    height: 500px;
+    overflow: auto;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    
+}
+
+
+#texto1 {
+    
+    font-family: sans-serif;
+}
+
+
+#texto2 {
+    
+    font-family: monospace;
+}
+
+#texto3 {
+    
+    font-family: fantasy;
+}
+
+
+#texto4 {
+    
+    font-family: verdana;
+}
+
+#texto5 {
+    
+    font-family: arial;
+}
+
+
+#texto6 {
+    
+    font-family: Aisyah Demo;
+}
+
+#texto7 {
+    
+    font-family: Algerian;
+}
+
+
+#texto8 {
+    
+    font-family: OCR A;
+}
+
+
+#texto9 {
+    
+    font-family: Limelight;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 2em;    
+}
+
+footer a {
+    color: black;
+}
