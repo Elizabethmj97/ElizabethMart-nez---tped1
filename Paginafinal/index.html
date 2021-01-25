@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>Heleia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+  
+    <script>
+        $(document).ready(function(){
+            $("#cierraCookies").click(function(){
+                $("#cookies").hide("slow");
+            });              
+            
+            $("#texto").scroll(function() {
+                $("#scrollHecho").show("slow");
+            });
+        });
+    </script> 
+    
+    
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+    
+     <script>
+        $(document).ready(function(){
+        $("#enlaceChat").click(function(){
+            $("#chat").toggle("slow"); 
+            $(this).toggleClass("chatOculto");
+        });
+        });
+    </script>
+    
+
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+    
+<body>
+    
+    
+    <header class="container">
+        
+        <div id="cookies">
+            Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso.<a href="https://www.modelosycontratos.com/politica-de-cookies/">Política de cookies.</a>
+            <button id="cierraCookies">Entendido</button>
+        </div> 
+        
+    </header>
+       
+    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      
+        <a class="navbar-brand" href="#">Menú</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+             <a href="#introduccion">INICIO</a> | <a href="#trabajo">TRABAJOS</a> | <a href="#footer">INFORMACIÓN</a>
+        </div>
+            
+        <ul class="navbar-nav">
+             <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i id="enlaceChat" class='far fa-comment-alt'></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+    
+    <div class="container-fluid">
+        <div class="row" id="principal">
+            <div class="col-12 col-sm-4" id="chat">
+                <h2>Escríbeme</h2>
+                <textarea></textarea>
+            </div>
+        </div> 
+    </div>
+        
+    
+    <main class="container">
+    
+        <div class="row" id="introduccion">
+           <div class="col">
+                <h1>¡Hola, soy Eli!</h1>
+                <p>Soy diseñadora gáfica freelance y esta página es mi portafolio.<br>
+                  Aquí podrás encontrar trabajos y proyectos hechos por mí, como logos, ilustraciones y fotografías.</p>  
+            </div>
+        </div>
+
+        
+        <div class="row" id="introcarrusel">
+            <h1>Ve poquito de mí antes de empezar:</h1>
+        </div>
+         
+         
+        <div class="row">
+            
+            <div id="mi_carousel" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#mi_carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mi_carousel" data-slide-to="1"></li>
+                    <li data-target="#mi_carousel" data-slide-to="2"></li>
+                </ul>
+     
+    
+     
+        <div class="carousel-inner ">  
+            <div class="carousel-item active">
+                <img src="imgs/flores.jpg" width="1000" class="img-fluid">
+                 
+            <div class="carousel-caption"> 
+                <p>Algunos de mis trabajos</p>
+            </div>
+                
+            </div>
+            
+            <div class="carousel-item">
+                <img src="imgs/libreta.jpg" width="1000" class="img-fluid">
+                    <div class="carousel-caption">
+                        <p>Algunos de mis trabajos</p>
+                    </div>
+            </div>
+            
+            
+            <div class="carousel-item">
+                <img src="imgs/flor.jpg" width="1000" class="img-fluid">
+                    <div class="carousel-caption">
+                        <p>Algunos de mis trabajos</p>
+                    </div>
+            </div>
+        </div>
+ 
+    
+                <a href="#mi_carousel" class="carousel-control-prev" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a>
+                <a href="#mi_carousel" class="carousel-control-next" data-slide="next"> <span class="carousel-control-next-icon"></span> </a>
+                
+            </div> 
+         </div>
+         
+      
+         
+         <div class="row" id="trabajo">
+            <h1>DISEÑOS:</h1>  
+        </div>
+         
+         <div class="row" id="texto">
+            <p>En este apartado podrás ver todos mis trabajos y proyectos, incluidos los trabajos de marcas, ilustraciones y algunas series fotográficas</p>     
+         </div>
+         
+        
+        <div class="row" id="titulotrabajo">
+            <h1>Diseño gráfico</h1>    
+        </div>
+         
+         
+        <div class="row">
+         
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/MockUp1.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/MockUp1.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Tarjeta visita boutique</h4>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/MockUp-2.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/MockUp-2.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Letrero boutique</h4>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/Mockup-FLAMAND.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/Mockup-FLAMAND.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Letrero marca de coche</h4>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/MOCKUP-LIBRO-2-COMPLETO.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/MOCKUP-LIBRO-2-COMPLETO.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Portada libro</h4>
+                    </div>
+                </div> 
+            </div>
+        
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <a href="imgs/qualitat1.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/qualitat1.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Logo de inspector de patatas</h4>
+                    </div>  
+                </div> 
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <a href="imgs/qualitat2.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/qualitat2.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Logo de inspector de patatas</h4>
+                    </div>   
+                </div> 
+            </div>  
+            
+    
+            <div class="row" id="ilu">
+                <h1>Ilustración</h1>  
+            </div>
+             
+            
+          <div class="row">
+         
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/utravel1.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/utravel1.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Portada revista</h4>
+                    </div>
+                </div> 
+             </div>
+         
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/utravel2.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/utravel2.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Contraportada revista</h4>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/proceso-8.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/proceso-8.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Pancarta 8 de marzo</h4>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/Paisaje.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/Paisaje.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Paisaje</h4>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <a href="imgs/L%C3%ADnea-mas-color.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/L%C3%ADnea-mas-color.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Thor</h4>
+                    </div>  
+                </div> 
+            </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <a href="imgs/japon.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/japon.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Japón</h4>
+                    </div>  
+                </div> 
+            </div>
+         
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <a href="imgs/lettering.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/lettering.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Lettering</h4>
+                    </div>  
+                </div> 
+            </div>
+              
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                  <a href="imgs/motivo.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/motivo.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Motivos</h4>
+                    </div>  
+                </div> 
+            </div> 
+              
+         </div>
+              
+         
+        <div class="row" id="ilu">
+            <h1>Fotografía</h1>    
+        </div>
+   
+            
+        <div class="row">
+        
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/flor.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/flor.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">En la palma de la mano</h4>
+                    </div>
+                </div> 
+            </div>
+   
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/mano.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/mano.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Libertad</h4>
+                    </div>
+                </div> 
+            </div>
+        
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <a href="imgs/flores.jpg" target="_blank" data-lightbox="ejemplo" data-title=" La noche estrellada. Pulsa a la derecha para avanzar o a la izquierda para retroceder, escape para cerrar">
+                    <img class="card-img-top" alt="en esta foto se ve" src="imgs/flores.jpg"></a>
+                    <div class="card-body">
+                    <h4 class="card-title">Margaritas</h4>
+                    </div>
+                </div> 
+            </div>
+
+         </div>
+            
+
+            <div class="row" id="logo">
+                <div class="col-6 col-md mb-5 mt-5 px-3">
+                    <img src="imgs/logo.png" width="200px;">
+                </div>
+            </div>
+            
+        </div>
+         
+    
+    </main>
+    
+    
+</body>
+ 
+    
+<footer class="container">
+    
+    <div class="row" id="footer">
+          
+        <div class= "col-12 col-md mb-5 mt-5 px-3">
+             <h1>Acerca de</h1>
+             <p>del nombre de Heleia, se trata del nombre con el que trabajo como diseñadora gráfica, llamándose también mis redes sociales de la misma manera. Me podrás buscar en Facebook e Instagram por este mismo nombre o pinchando en los iconos de abajo de las respectivas redes sociales.</p> 
+        </div>  
+              
+              
+        <div class= "col-12 col-md mb-5 mt-5 px-3">
+             
+             <h1>Sobre mí</h1>
+             <p>Soy una diseñadora gráfica que aún se está descubriendo, por ello abarco casi todo tipo de diseños y estilos difrerentes, tanto para marcas, ilustraciones, etc.</p> 
+        </div>
+
+        <div class= "col-12 col-md mb-5 mt-5 px-3">
+             
+            <h1>Información</h1>
+            <p>Este es mi portafolio y solo contestaré a correos que no sean de ámbito personal, si no laboral. Me podréis escribir tanto por aquí, en las redes sociales como instagram y facebook o bien en el correo que pondré a continuación: <a href="https://mail.google.com/">heleia_desing@gamil.es</a></p>          
+        </div>
+    
+    </div>
+    
+    
+    <div class="row" id="redes">
+            
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="https://www.instagram.com/heleia.design/"><img src="imgs/insta.png" width="30px;"></a>
+            <h7 class="card-title">Instagram</h7> 
+        </div>
+            
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="https://n9.cl/abgv7/">
+            <img src="imgs/face.png" width="30px;"></a>
+            <h7 class="card-title">Facebook</h7>  
+        </div>
+    
+    </div>
+   
+</footer>
+                                                      
+</html>

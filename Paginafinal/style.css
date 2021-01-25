@@ -1,0 +1,198 @@
+body {
+  
+    background-color: #1D1D1D;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header .row {   
+    
+    align-content: center; 
+    text-align: center;
+}
+
+
+#principal {
+    
+    height: 25vh;
+    margin-top: 48px; 
+    overflow: auto;
+}
+
+
+#chat {
+    
+    background-color: #75B3AA;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    width: 50%;
+    height: 300px;
+    z-index: 2;
+}
+
+
+textarea {
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+.chatOculto {
+    
+    color: #75B3AA;
+    font-size: 2em;
+}
+
+
+#cookies {
+    
+    position: fixed;
+    bottom: 10px;
+    width: 35%;
+    
+    background-color: black;
+    color: white;
+    animation-name: muestraCookies;
+    animation-duration: 2s;
+    z-index: 2;
+}
+
+
+@keyframes muestraCookies {
+    
+    from {
+        height: 0;
+    }
+    
+    to {
+        height: 80px;
+    }
+}
+
+
+#introduccion {
+    
+    color: white;
+    margin-bottom: 150px;
+    margin-left: 0;
+    text-align: center;
+    font-family: Imprint MT Shadow;
+    font-size: 30px;
+    text-align: justify;
+    padding: 50px;
+    background-image: url(imgs/paredhojas.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#introcarrusel {
+   
+    color: white;
+    margin-bottom: 70px;
+    margin-left: auto;
+    text-align: center;
+    font-family: Imprint MT Shadow;
+    font-size: 30px;
+    text-align: justify;   
+}
+
+
+#mi_carousel {
+    
+    margin-bottom: 300px;
+    align-content: center;
+    margin-left: 50px;  
+}
+
+
+a {
+    color: white;
+    padding: 20px;
+  
+}
+
+
+#trabajo {
+    
+    color: #1D1D1D;
+    margin-bottom: 150px;
+    margin-top: -100px;
+    margin-left: 0;
+    font-family: Imprint MT Shadow;
+    font-size: 150px;
+    background-color: white;
+   padding: 20px;
+} 
+    
+    
+#texto {
+    
+    margin-bottom: 65px;
+    margin-top: -100px;
+    color: white;
+    margin-left: auto;   
+}
+
+
+
+#titulotrabajo {
+    
+    color: white;
+    margin-bottom: 70px;
+    margin-left: 0;
+    text-align: center;
+    font-family: Imprint MT Shadow;
+    font-size: 30px;
+    text-align: justify; 
+}
+
+
+
+#ilu {
+    
+    color: white;
+    margin-bottom: 70px;
+    margin-top: 100px;
+    margin-left: 15px;;
+    text-align: center;
+    font-family: Imprint MT Shadow;
+    font-size: 30px;
+    text-align: justify;
+   
+    
+   } 
+
+
+
+.card {
+    border-style: none;
+}
+
+
+#logo {
+    
+    margin-top: 200px;
+    margin-bottom: -50px;
+    margin-left: 125px;   
+}
+
+
+footer {
+    
+    height: 300px;
+    color: white;
+    margin-top: 100px;
+    
+}
+
+#redes {
+    
+    text-align: center;
+    margin-top: 55px;
+}
+
